@@ -1,5 +1,5 @@
 {% set name = "koolstof" %}
-{% set version = "1.0.0" %}
+{% set version = "1.0.1" %}
 {% set python_min = "3.11" %}
 
 package:
@@ -7,8 +7,8 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/koolstof-{{ version }}.tar.gz
-  sha256: ca7dd159b7ca9998930b366f1f64db0a9ccd9fcbfe2fb1aa0d0eb8b23679e1c8
+  url: https://pypi.org/packages/source/k/koolstof/koolstof-{{ version }}.tar.gz
+  sha256: 80ffedd2980798584c0cad8d07b2d2de76734172685dc19c560ce90d0e92a5e5
 
 build:
   noarch: python
